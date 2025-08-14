@@ -1,0 +1,75 @@
+ผมใช้ chatgpt ในการ gen โจทย์มาให้แล้วผมก็ทำตามโจทย์ที่ให้มาโดยผมบอกเนื้อหาที่เรียนมา
+
+Week 1 JavaScript Practice — “Library Book Manager”
+
+Scenario:
+You are making a small program to manage a list of books in a library.
+Your goal is to use every concept from the lesson.
+
+Steps to Complete:
+1️⃣ Creating arrays
+
+Array literal:
+
+Create an array books containing at least 4 book titles.
+
+Spread operator:
+
+Create another array moreBooks that includes all books from books plus 2 new ones.
+
+Array() constructor:
+
+Create an array emptyShelves with 3 empty slots.
+
+Array.of():
+
+Create an array ratings with the numbers 5, 4, 3, 5.
+
+Array.from():
+
+Create an array titleLengths from the books array, where each element is the length of that title.
+
+2️⃣ Reading and writing elements
+
+Print the first book in books.
+
+Change the second book title to "Harry Potter".
+
+Use a variable i = 2 to change the third book title.
+
+Add a new book to the end of the array.
+
+3️⃣ Adding and deleting elements
+
+Add one book to the start of books.
+
+Remove the last book from books.
+
+Remove the first book from books.
+
+4️⃣ Destructuring assignment
+
+Use array destructuring to store the first two books from books into variables firstBook and secondBook.
+
+Print them.
+
+5️⃣ Iterating arrays
+
+Iterate through books and print index + title in this format:
+
+0: The Hobbit
+1: Harry Potter
+
+
+Do the same but also print "Length: X" for each title.
+
+💡 Bonus Challenge:
+
+Combine books and ratings into one array of objects:
+
+{ title: "The Hobbit", rating: 5 }
+
+
+Then sort by rating (highest first) and print them.
+
+ผมทำตามหมดเกือบทุกข้อยกเว้นข้อ bonus เพราะผมทำไม่เป็นจริงๆครับข้อนี้
