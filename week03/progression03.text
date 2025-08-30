@@ -1,0 +1,41 @@
+ผมใช้ chatgpt ในการ gen โจทย์มาให้แล้วผมก็ทำตามโจทย์ที่ให้มาโดยผมบอกเนื้อหาที่เรียนมา
+
+แบบฝึกหัด Functions (JavaScript)
+Part 1: Function Basics
+
+เขียนฟังก์ชัน square(number) ที่รับค่ามาหนึ่งตัว แล้วคืนค่ากำลังสองของมัน
+เช่น square(5) ➝ 25
+
+เขียนฟังก์ชัน isEven(num) ที่รับตัวเลขมา แล้วคืนค่า true ถ้าเป็นเลขคู่ และ false ถ้าเป็นเลขคี่
+
+เขียนฟังก์ชัน greet(name) ที่มีค่า default ของ name เป็น "Guest" แล้วคืนค่า "Hello, <name>"
+
+Part 2: Function Expressions & Arrow Functions
+
+เขียน Function Expression ชื่อ getRectangleArea ที่คำนวณพื้นที่สี่เหลี่ยมผืนผ้า (กว้าง * ยาว)
+
+เขียน Arrow Function ชื่อ add ที่รับตัวเลขสองตัว แล้วคืนค่าผลบวกของมัน
+
+Part 3: Parameters & Arguments
+
+เขียนฟังก์ชัน sumAll(...nums) ที่ใช้ Rest parameter ในการหาผลรวมของตัวเลขทุกตัวที่ส่งเข้าไป
+เช่น sumAll(1,2,3,4) ➝ 10
+
+เขียนฟังก์ชัน multiplyArray(nums) ที่ใช้ Spread parameter ในการคูณตัวเลขทั้งหมดใน array
+เช่น multiplyArray([2,3,4]) ➝ 24
+
+Part 4: Destructuring
+
+เขียนฟังก์ชัน printFullName({ firstName, lastName }) ที่รับ object ของคน แล้ว return "<firstName> <lastName>"
+เช่น { firstName: "Somchai", lastName: "Jaidee" } ➝ "Somchai Jaidee"
+
+เขียนฟังก์ชัน arrayAdd([x1, y1], [x2, y2]) ที่ใช้ array destructuring มาบวกค่าของพิกัดทั้งสอง
+เช่น arrayAdd([1,2],[3,4]) ➝ 10
+
+Part 5: Higher-Order Functions
+
+เขียนฟังก์ชัน operator(n1, n2, fn) ที่รับตัวเลขสองตัว และฟังก์ชัน fn แล้ว return ผลลัพธ์จากการนำ fn(n1, n2) ไปคำนวณ
+
+ทดลองส่ง add และ multiply เข้าไป
+
+ตาม code ที่ผมได้ทำมาผมลองฝึกทำ arrow function เพราะ ผมไม่เคยใช้เลยต้องการที่จะฝึกเรื่องนี้ให้เยอะ เพราะ คิดว่าในอนาคตน่าจะใช้บ่อยครับผม
