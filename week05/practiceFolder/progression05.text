@@ -1,0 +1,53 @@
+Part 1: CommonJS (Node.js)
+
+Create a file math.js that exports one function add(a, b) using module.exports.
+
+Then create app.js that uses require() to import and call add.
+
+Create a file calc.js with two functions subtract(a, b) and multiply(a, b).
+
+Export them as an object.
+
+In main.js, import using destructuring and test both.
+
+Part 2: ES Modules – Export
+
+Create a file student.js that exports:
+
+studentName (named export)
+
+getId() (named export)
+
+getInstructor() (default export)
+
+Create a file main.js and import them all. Show their results with console.log.
+
+Part 3: ES Modules – Import
+
+In main.js, import studentName but rename it with as sName.
+
+Try importing both default and named exports in one statement.
+
+Part 4: Tree Shaking (concept)
+
+Create a file utils.js with 4 functions: sum, subtract, multiply, divide.
+
+In main.js, import and use only sum and multiply.
+
+Explain what tree shaking would do if you used a bundler (e.g. webpack).
+
+Part 5: Run in Browser
+
+Create subjectExport.js with:
+
+export const subject = "INT201"
+
+
+In main.js, import { subject } and console.log(subject).
+
+In index.html, include your script:
+
+<script type="module" src="./main.js"></script>
+
+หลังจากทำตามที่ chatgen ให้ผมรู้สึกเข้าใจขึ้นมาบ้างแต่ก็รู้สึกงงๆกับการตั้งโจทย์ของ chat เพราะบางตัวใช้ function ชื่อเดียวกันและให้ import เข้ามาใน file เดียวกันเลย
+ทำให้ code error ผมไม่รู้ว่าที่ผมทำทำถูกไหมแต่ถ้าเนื้อหาผมว่าเข้าใจอยู่ครับ แต่น่าจะมีปัญหาเรื่องประยุกต์
